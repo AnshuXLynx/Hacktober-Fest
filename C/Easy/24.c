@@ -2,7 +2,7 @@
 #include<conio.h>
 int main() {
     int a;
-
+clrscr();
     printf("Enter your age: ");
     scanf("%d", &a);
 
@@ -11,6 +11,6 @@ int main() {
     } else {
         printf("Sorry! You are not eligible for a license.\n");
     }
-
+getch();
     return 0;
 }
