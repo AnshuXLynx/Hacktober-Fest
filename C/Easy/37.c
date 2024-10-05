@@ -2,13 +2,12 @@
 
 int main() {
     
-    for (int i = 0; i < _; i++) {
-        printf("%d\n", i);  
-
-        
-        if (i __ 5) {
+    for (int i = 0; i < 6; i++) {
+         printf("%d\n", i);  
+         if (i == 5) {
             printf("Reached 5!\n");
-        }
+            break;
+        }   
     }
     return 0;
 }
